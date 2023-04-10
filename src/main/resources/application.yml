@@ -1,0 +1,12 @@
+server:
+  port: 9193
+  application:
+    name: fnol-service
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: fnol 
+      auto-index-creation: true
